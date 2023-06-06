@@ -1,0 +1,154 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #EDEFF7;
+  box-shadow: 0 0 4px 2px #EDEFF7;
+}
+
+.contentContainer {
+  max-width: 1000px;
+}
+
+.logoContainer {
+  background-color: #3C4A8E;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -3px 3px -3px #000000, 3px 0 3px -3px #000000, -3px 0 3px -3px #000000;
+}
+
+.logoImg {
+  height: auto;
+  max-width: 100%;
+}
+
+.companyTextContainer {
+  background-color: #E6E6ED;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0 3px 3px -3px #B3B3B3 , 3px 0 3px -3px #B3B3B3, -3px 0 3px -3px #B3B3B3;
+}
+
+.companyText {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.infoBoxesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.infoBox {
+  background-color: #798494;
+  width: 230px;
+  height: 190px;
+  margin: 10px;
+  box-shadow: 4px 4px 2px #808080;
+}
+
+.infoBoxImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.infoBoxImage {
+  height: 100px;
+  width: 100px;
+  padding-top: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.infoBoxText {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.clientTextContainer {
+  background-color: #3C4A8E;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0 -3px 3px -3px #000000, 3px 0 3px -3px #000000, -3px 0 3px -3px #000000;
+}
+
+.clientText {
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.directorInfoContainer {
+  background-color: #E6E6ED;
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-shadow: 0 3px 3px -3px #B3B3B3, 3px 0 3px -3px #B3B3B3, -3px 0 3px -3px #B3B3B3;
+}
+
+.directorInfoImageLeft {
+  height: 200px;
+  width: 200px;
+}
+
+.directorInfoImageRight {
+  height: 200px;
+  width: 200px;
+}
+
+.directorInfoText {
+  text-align: center;
+}
+
+.servicesContainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.serviceBox {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+
+.servicesTextContainer {
+  width: 400px;
+  margin-top: -20px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.serviceImg {
+  width: 400px;
+  box-shadow: 3px 3px 2px #B3B3B3;
+}
+
+.serviceList {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.contactContainer {
+  background-color: #3C4A8E;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0 0 3px #000000;
+}
+
+.footerContainer {
+  display: flex;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.linkedInLogo {
+  margin-left: auto;
+  padding-top: 6px;
+}
