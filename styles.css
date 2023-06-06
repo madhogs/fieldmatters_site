@@ -1,12 +1,15 @@
 .pageContainer {
+  margin: -10px;
   display: flex;
   justify-content: center;
-  background-color: #EDEFF7;
   box-shadow: 0 0 4px 2px #EDEFF7;
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("background.jpg");
+  font-family: Arial;
 }
 
 .contentContainer {
   max-width: 1000px;
+  padding-top: 10px;
 }
 
 .logoContainer {
@@ -63,8 +66,8 @@
 .infoBoxText {
   color: #FFFFFF;
   font-weight: bold;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
   text-align: center;
 }
 
@@ -118,9 +121,11 @@
 
 .servicesTextContainer {
   width: 400px;
-  margin-top: -20px;
+  margin-left: 20px;
   padding-left: 20px;
   text-align: left;
+  background-color: #E6E6ED;
+  box-shadow: 3px 3px 2px #B3B3B3;
 }
 
 .serviceImg {
